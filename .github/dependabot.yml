@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"  # 告訴它我們要掃描 pip (Python)
+    directory: "/"            # 告訴它檔案在根目錄
+    schedule:
+      interval: "daily"       # 設定每天掃描 (這會觸發立即檢查)
